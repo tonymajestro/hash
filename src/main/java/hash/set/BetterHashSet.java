@@ -19,7 +19,6 @@ public class BetterHashSet {
         int location = simpleHash(num);
 
         // Implement add here
-        set[location] = true;
     }
 
     public boolean contains(int num) {

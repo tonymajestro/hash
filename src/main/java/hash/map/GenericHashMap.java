@@ -77,6 +77,9 @@ public class GenericHashMap<TKey, TValue> {
         ArrayList<Pair<TKey, TValue>> collisions = map[location];
 
         // Check if the key already exists
+        int index = findIndex(key, collisions);
+
+        // Implement remove here
     }
 
     private Pair<TKey, TValue> find(TKey key, ArrayList<Pair<TKey, TValue>> collisions) {

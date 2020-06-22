@@ -39,7 +39,7 @@ public class GenericHashSet<T> {
 
         ArrayList<T> values = map[location];
 
-        // Finish contains here
+        // Implement contains here
         return false;
     }
 
@@ -52,7 +52,7 @@ public class GenericHashSet<T> {
 
         ArrayList<T> values = map[location];
 
-        // Finish remove here
+        // Implement remove here
     }
 
     /**
