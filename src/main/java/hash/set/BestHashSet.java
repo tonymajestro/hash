@@ -20,14 +20,14 @@ public class BestHashSet {
 
     public void add(int num) {
         int location = simpleHash(num);
-        ArrayList<Integer> values = set[location];
+        ArrayList<Integer> collisions = set[location];
 
         // Implement add here
     }
 
     public boolean contains(int num) {
         int location = simpleHash(num);
-        ArrayList<Integer> values = set[location];
+        ArrayList<Integer> collisions = set[location];
 
         // Implement contains here
         return false;

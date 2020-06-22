@@ -2,6 +2,9 @@ package hash.set;
 
 import java.util.ArrayList;
 
+/**
+ * Generic HashSet. Collisions are handled using an ArrayList.
+ */
 public class GenericHashSet<T> {
 
     // Array of ArrayList<T>

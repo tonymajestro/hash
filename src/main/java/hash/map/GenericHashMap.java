@@ -2,6 +2,9 @@ package hash.map;
 
 import java.util.ArrayList;
 
+/**
+ * Generic HashMap. Collisions are handled using an ArrayList.
+ */
 public class GenericHashMap<TKey, TValue> {
 
     // Array of ArrayList<Pair<TKey, TValue>>
